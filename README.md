@@ -3,6 +3,7 @@
 收藏各種網站設計範例 📖
 
 * ## Animation
+    * Colorful Rain
     * Loading
     * Number Spinner
 * ## Game
