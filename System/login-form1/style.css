@@ -1,0 +1,54 @@
+body {
+	display: flex;
+    min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+    background-color: #58c9b9;
+	font-family: "Helvetica", "微軟正黑體";
+}
+
+.login {
+    width: 400px;
+	padding: 40px;
+	text-align: center;
+	color: #fffff2;
+	background-color: #011638;
+	box-shadow: 10px 10px 25px #00000080;
+}
+
+.login input {
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+	color: #fffff2;
+	background: none;
+	border-radius: 22px;
+	outline: none;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+	width: 220px;
+	border: 2px solid #84b1ed;
+}
+
+.login input[type="submit"] {
+	width: 150px;
+	border: 2px solid #efdc05;
+	cursor: pointer;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+	width: 250px;
+	border-color: #efdc05;
+	transition: 0.5s;
+}
+
+.login input[type="submit"]:hover {
+	background-color: #3ac569;
+    border-color: #3ac569;
+	transition: 0.5s;
+}
