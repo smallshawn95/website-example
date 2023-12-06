@@ -4,6 +4,7 @@
 
 * ## Animation
     * Colorful Rain
+    * Jelly Bubble
     * Loading
     * Number Spinner
 * ## Game
