@@ -6,3 +6,4 @@
     * Number Spinner
 * ## Game
     * Drag And Drop Tic-Tac-Toe
+    * Snake
