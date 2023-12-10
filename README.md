@@ -4,6 +4,8 @@
 
 * ## Animation
     * Colorful Glowing Liquid
+    * Colorful Rain
+    * Text Rain
     * Jelly Bubble
     * Loading
 * ## Game
@@ -11,7 +13,6 @@
     * Snake
 * ## Portfolio
     * Clock
-    * Colorful Rain
     * Countdown Timer
     * Html CSS Love
     * Light Tube Text
