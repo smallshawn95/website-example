@@ -13,7 +13,8 @@
     * Drag And Drop Tic-Tac-Toe
     * Snake
 * ## Portfolio
-    * Clock
+    * Clock 1
+    * Clock 2
     * Countdown Timer
     * Html CSS Love
     * Light Tube Text
