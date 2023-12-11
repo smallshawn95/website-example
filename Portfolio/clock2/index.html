@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Digital and Analog Clock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="clock">
+            <div class="digital" style="--clr:#ff2972;">
+                <div class="screen" data-text="Hours">
+                    <div class="time">
+                        <div id="hours"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="digital" style="--clr:#fee800;">
+                <div class="screen" data-text="Minutes">
+                    <div class="time">
+                        <div id="minutes"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="digital" style="--clr:#04fc43;">
+                <div class="screen" data-text="Seconds">
+                    <div class="time">
+                        <div id="seconds"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="digital">
+                <div class="box" id="hh" style="--clr:#ff2972;"></div>
+                <div class="box" id="mm" style="--clr:#fee800;"></div>
+                <div class="box" id="ss" style="--clr:#04fc43;"></div>
+                <div id="am-pm"></div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
