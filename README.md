@@ -9,6 +9,7 @@
     * Jelly Bubble
     * Loading
 * ## Game
+    * Card Memory
     * Drag And Drop Tic-Tac-Toe
     * Snake
 * ## Portfolio
