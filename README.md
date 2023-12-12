@@ -3,6 +3,7 @@
 收藏各種網站設計範例 📖
 
 * ## Animation
+    * Amazing Rain Lightning
     * Colorful Glowing Liquid
     * Colorful Rain
     * Text Rain
