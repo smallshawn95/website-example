@@ -88,6 +88,7 @@ body.active {
 
 .form-box .signup-form {
     left: 100%;
+    transition-delay: 0s;
 }
 
 .form-box.active {
@@ -105,7 +106,6 @@ body.active {
 
 .form-box .form {
     position: absolute;
-    left: 0;
     width: 100%;
     padding: 50px;
     transition: 0.5s;
@@ -141,6 +141,48 @@ body.active {
     cursor: pointer;
 }
 
+.form-box.form-box.active .signup-form input[type="submit"] {
+    background: #f43648;
+}
+
 .forget {
     color: #333;
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 400px;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .blue-background {
+        top: 0;
+        height: 100%;
+    }
+
+    .form-box {
+        top: 0;
+        width: 100%;
+        height: 500px;
+        box-shadow: none;
+    }
+
+    .blue-background .box {
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+    }
+
+    .box.signin {
+        top: 0;
+    }
+    
+    .form-box.active {
+        left: 0;
+        top: 150px;
+    }
 }
