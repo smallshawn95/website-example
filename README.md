@@ -6,9 +6,10 @@
     * Amazing Rain Lightning
     * Colorful Glowing Liquid
     * Colorful Rain
-    * Text Rain
     * Jelly Bubble
     * Loading
+    * Random Background Color
+    * Text Rain
 * ## Game
     * Card Memory
     * Drag And Drop Tic-Tac-Toe
