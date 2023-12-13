@@ -22,6 +22,7 @@
     * Light Tube Text
     * Number Spinner
 * ## System
-    * Login And Register Form
+    * Login And Register Form 1
+    * Login And Register Form 2
     * Login Form 1
     * Login Form 2
