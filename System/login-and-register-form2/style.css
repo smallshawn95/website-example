@@ -127,7 +127,6 @@ body.signup .container span::after {
 
 form {
     position: absolute;
-    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,16 +136,24 @@ form {
     transition: 0.5s;
 }
 
+#signin-form {
+    left: 0;
+    opacity: 1;
+}
+
 #signup-form {
-    left: 300%;
+    left: 100%;
+    opacity: 0;
 }
 
 body.signup form#signin-form {
-    left: -300%;
+    left: -100%;
+    opacity: 0;
 }
 
 body.signup form#signup-form {
     left: 0;
+    opacity: 1;
 }
 
 form h2 {
