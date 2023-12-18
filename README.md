@@ -22,6 +22,7 @@
     * Html CSS Love
     * Light Tube Text
     * Number Spinner
+    * Pixel Image Effects
     * Smiley Rating Bar
 * ## System
     * Login And Register Form 1
