@@ -10,6 +10,7 @@
     * Loading
     * Random Background Color
     * Text Rain
+    * Water Wave Text
 * ## Game
     * Card Memory
     * Drag And Drop Tic-Tac-Toe
