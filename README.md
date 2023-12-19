@@ -24,6 +24,7 @@
     * Number Spinner
     * Pixel Image Effects
     * Smiley Rating Bar
+    * Star Rating Widget
 * ## System
     * Login And Register Form 1
     * Login And Register Form 2
