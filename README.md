@@ -16,6 +16,7 @@
     * Drag And Drop Tic-Tac-Toe
     * Snake
 * ## Portfolio
+    * Calculator
     * Clock 1
     * Clock 2
     * Clock 3
