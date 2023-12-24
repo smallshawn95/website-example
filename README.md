@@ -14,6 +14,7 @@
 * ## Game
     * Card Memory
     * Drag And Drop Tic-Tac-Toe
+    * Lucky Spinning Wheel
     * Mario Matching
     * Snake
 * ## Portfolio
