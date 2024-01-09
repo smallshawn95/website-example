@@ -6,6 +6,7 @@
     * Amazing Rain Lightning
     * Colorful Glowing Liquid
     * Colorful Rain
+    * Fingerprint Scanning
     * Jelly Bubble
     * Loading
     * Random Background Color
