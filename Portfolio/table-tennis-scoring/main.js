@@ -1,5 +1,7 @@
-let aScore = document.getElementById("a-score");
-let bScore = document.getElementById("b-score");
+let aRatio = 0, bRatio = 0, winScore = 11;
+let ratio = document.getElementById("ratio");
+let aScoreText = document.getElementById("a-score");
+let bScoreText = document.getElementById("b-score");
 let aPlusButton = document.getElementById("a-plus");
 let bPlusButton = document.getElementById("b-plus");
 let aMinusButton = document.getElementById("a-minus");
@@ -16,17 +18,48 @@ function change_score(x, score){
     return value;
 }
 
+function deuce(aScore, bScore){
+    if(aScore >= 10 && bScore >= 10 && aScore == bScore){
+        winScore += 1;
+    }
+}
+
+function change_ratio(){
+    let aScore = parseInt(aScoreText.innerText);
+    let bScore = parseInt(bScoreText.innerText);
+    deuce(aScore, bScore);
+    if(aScore == winScore){
+        aRatio += 1;
+        alert(`${aName.innerText} win.`);
+        winScore = 11;
+        aScoreText.innerText = "00";
+        bScoreText.innerText = "00";
+        ratio.innerText = `${aRatio} - ${bRatio}`;
+    }else if(bScore == winScore){
+        bRatio += 1;
+        alert(`${bName.innerText} win.`);
+        winScore = 11;
+        aScoreText.innerText = "00";
+        bScoreText.innerText = "00";
+        ratio.innerText = `${aRatio} - ${bRatio}`;
+    }
+}
+
 aPlusButton.onclick = function(){
-    aScore.innerText = change_score(1, parseInt(aScore.innerText));
+    aScoreText.innerText = change_score(1, parseInt(aScoreText.innerText));
+    change_ratio();
 };
 aMinusButton.onclick = function(){
-    aScore.innerText = change_score(-1, parseInt(aScore.innerText));
+    aScoreText.innerText = change_score(-1, parseInt(aScoreText.innerText));
+    change_ratio();
 };
 bPlusButton.onclick = function(){
-    bScore.innerText = change_score(1, parseInt(bScore.innerText));
+    bScoreText.innerText = change_score(1, parseInt(bScoreText.innerText));
+    change_ratio();
 };
 bMinusButton.onclick = function(){
-    bScore.innerText = change_score(-1, parseInt(bScore.innerText));
+    bScoreText.innerText = change_score(-1, parseInt(bScoreText.innerText));
+    change_ratio();
 };
 
 let aName = document.getElementById("a-name");
