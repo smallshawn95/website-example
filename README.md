@@ -7,6 +7,7 @@
     * Colorful Glowing Liquid
     * Colorful Rain
     * Fingerprint Scanning
+    * Flying Rocket
     * Jelly Bubble
     * Loading
     * Random Background Color
