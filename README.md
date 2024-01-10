@@ -26,6 +26,7 @@
     * Clock 3
     * Countdown Timer
     * Html CSS Love
+    * Keyboard Keys
     * Light Tube Text
     * Number Spinner
     * Pixel Image Effects
