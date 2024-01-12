@@ -10,6 +10,7 @@
     * Flying Rocket
     * Jelly Bubble
     * Loading
+    * Neumorphism
     * Random Background Color
     * Text Rain
     * Water Wave Text
