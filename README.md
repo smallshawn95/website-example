@@ -8,6 +8,7 @@
     * [Colorful Rain](Animation/colorful-rain)
     * [Fingerprint Scanning](Animation/fingerprint-scanning)
     * [Flying Rocket](Animation/flying-rocket)
+    * [Glowing Gradient Border](Animation/glowing-gradient-border)
     * [Jelly Bubble](Animation/jelly-bubble)
     * [Loading](Animation/loading)
     * [Neumorphism](Animation/neumorphism)
