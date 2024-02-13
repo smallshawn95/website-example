@@ -34,6 +34,7 @@
     * [Countdown Timer](Portfolio/countdown-timer)
     * [Light Tube Text](Portfolio/light-tube-text)
     * [Number Spinner](Portfolio/pixel-image-effects)
+    * [Responsive Image Slider](Portfolio/responsive-image-slider)
     * [Smiley Rating Bar](Portfolio/smiley-rating-bar)
     * [Star Rating Widget](Portfolio/star-rating-widget)
     * [Table Tennis Scoring](Portfolio/table-tennis-scoring)
