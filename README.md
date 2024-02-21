@@ -40,6 +40,7 @@
     * [Table Tennis Scoring](Portfolio/table-tennis-scoring)
 
 * ## Showcase
+    * [Glassmorphism Card](Showcase/glassmorphism-card)
     * [Gradient Stroke Text](Showcase/gradient-stroke-text)
     * [Html CSS Love](Showcase/html-css-love)
     * [Keyboard Keys](Showcase/keyboard-keys)
