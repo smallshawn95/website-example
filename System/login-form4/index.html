@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Color Switch Login Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="login">
+            <h2 id="txt">Login</h2>
+            <div class="inputBox">
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="inputBox">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Login" id="btn">
+            </div>
+            <div class="group">
+                <a href="#">Forget Password</a>
+                <a href="#">Signup</a>
+            </div>
+        </div>
+        <div class="colors">
+            <span class="active" style="--clr:#1dd1a1;" onclick="changeColor('#1dd1a1');"></span>
+            <span style="--clr:#ff6b6b;" onclick="changeColor('#ff6b6b');"></span>
+            <span style="--clr:#2e86de;" onclick="changeColor('#2e86de');"></span>
+            <span style="--clr:#f368e0;" onclick="changeColor('#f368e0');"></span>
+            <span style="--clr:#ff9f43;" onclick="changeColor('#ff9f43');"></span>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
